@@ -1,0 +1,3 @@
+protocol,task,model,n,accuracy,balanced_accuracy,macro_f1,weighted_f1
+event_disjoint_same_corpus,11class,distilbert_ft,67243,0.7317936439480689,0.5297285161201388,0.45932259907016443,0.746470393435845
+event_disjoint_same_corpus,direct_triage,distilbert_ft,67243,0.9408562973097572,0.5960397286884437,0.577000598376339,0.9419434895722474

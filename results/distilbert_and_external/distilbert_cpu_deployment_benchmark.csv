@@ -1,0 +1,2 @@
+model,pipeline_size_mb,median_single_ms,p95_single_ms,batch_ms_per_message,device,torch_threads
+distilbert_ft,256.1315269470215,67.95476050047,86.73667179964464,51.10693136599912,cpu,1

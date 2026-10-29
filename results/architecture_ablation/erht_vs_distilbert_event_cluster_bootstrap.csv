@@ -1,0 +1,3 @@
+protocol,task,model_a,model_b,effect_erht_minus_distilbert,ci95_low,ci95_high,p_two_sided,n_event_clusters,n_bootstrap
+event_disjoint_same_corpus,11class,erht_full,distilbert_ft,0.007080733827040497,-0.014933888661288064,0.024148668058088244,0.4847576211894053,50,2000
+event_disjoint_same_corpus,direct_triage,erht_full,distilbert_ft,-0.002346865328100356,-0.004470887019379694,0.000727702408130905,0.1359320339830085,50,2000
