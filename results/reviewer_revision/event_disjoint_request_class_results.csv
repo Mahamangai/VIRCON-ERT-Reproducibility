@@ -1,0 +1,5 @@
+protocol,task,model,label,precision,recall,f1,support
+event_disjoint_same_corpus,direct_triage,hash_lr,request,0.0,0.0,0.0,132
+event_disjoint_same_corpus,direct_triage,tfidf_lr,request,0.0,0.0,0.0,132
+event_disjoint_same_corpus,direct_triage,tfidf_svc,request,0.0,0.0,0.0,132
+event_disjoint_same_corpus,direct_triage,minilm_lr,request,0.0045207956600361665,0.03787878787878788,0.008077544426494346,132
