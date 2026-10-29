@@ -1,0 +1,4 @@
+protocol,stage,rows_retained,rows_removed_at_stage
+hagupit_aliases_kept_separate,prepared_train_plus_test,78520,0
+hagupit_aliases_kept_separate,exclude_generic_or_unresolved_event_pool,67251,11269
+hagupit_aliases_kept_separate,exclude_cross_event_duplicate_and_or_conflicting_texts,67243,8

@@ -1,0 +1,8 @@
+global_row_id,source_split,source_row,event,label_11,label_triage,rater1_triage,rater2_triage,adjudicated_triage,final_human_triage
+60827,train,60827,2014_philippines_typhoon,displaced_and_evacuations,other,other,uncertain,other,other
+15968,train,15968,2015_nepal_earthquake,infrastructure_and_utilities_damage,other,other,uncertain,other,other
+1039,train,1039,iraq_iran_earthquake,injured_or_dead_people,other,other,uncertain,other,other
+23666,train,23666,2015_nepal_earthquake,missing_and_found_people,other,response,uncertain,response,response
+49759,train,49759,2015_nepal_earthquake,sympathy_and_support,other,other,uncertain,other,other
+14357,train,14357,2015_nepal_earthquake,sympathy_and_support,other,other,uncertain,other,other
+59456,train,59456,2015_nepal_earthquake,sympathy_and_support,other,other,uncertain,other,other

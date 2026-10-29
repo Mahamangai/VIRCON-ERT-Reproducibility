@@ -1,0 +1,6 @@
+protocol,exclusion_category,rows
+hagupit_aliases_kept_separate,generic_event_pool,11269
+hagupit_aliases_kept_separate,cross_event_duplicate_only,0
+hagupit_aliases_kept_separate,conflicting_label_only,6
+hagupit_aliases_kept_separate,both_duplicate_and_conflict,2
+hagupit_aliases_kept_separate,final_strict_population,67243

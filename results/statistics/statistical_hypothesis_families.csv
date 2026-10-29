@@ -1,0 +1,5 @@
+family,pairing_unit,resampling,primary_quantity,multiplicity
+fixed_split_11class_minilm_vs_sparse,same test message,stratified paired message bootstrap,macro-F1 difference with 95% CI,Holm within this family
+fixed_split_direct_triage_minilm_vs_sparse,same test message,stratified paired message bootstrap,macro-F1 difference with 95% CI,Holm within this family
+event_disjoint_11class_minilm_vs_sparse,same strict-corpus record,canonical-event cluster bootstrap,macro-F1 difference with 95% CI,Holm within this family
+event_disjoint_direct_triage_minilm_vs_sparse,same strict-corpus record,canonical-event cluster bootstrap,macro-F1 difference with 95% CI,Holm within this family

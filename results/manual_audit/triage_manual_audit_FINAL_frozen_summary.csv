@@ -1,0 +1,2 @@
+n_audited,original_rater_agreement_n,original_rater_disagreement_n,raw_interrater_agreement,cohen_kappa,n_adjudicated,final_request_count,final_response_count,final_other_count,final_uncertain_count,hidden_request_count,hidden_response_count,hidden_actionable_count,hidden_actionable_fraction,hidden_actionable_ci95_low,hidden_actionable_ci95_high,taxonomy_proxy_accuracy,taxonomy_proxy_macro_f1,bootstrap_resamples
+200,193,7,0.965,0.8126589053927472,7,8,9,183,0,8,9,17,0.085,0.05,0.125,0.915,0.3185378590078329,10000
