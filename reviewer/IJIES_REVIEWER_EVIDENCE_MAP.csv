@@ -1,0 +1,16 @@
+reviewer_comment,issue,supporting_paths,caveat
+R1.1,Deployment overclaim,results/reviewer_revision/accuracy_latency_memory_pareto.csv,Earlier sparse comparison only; cross-hardware transformer comparison not matched
+R1.2,Event population accounting,data_provenance/complete_sample_accounting.csv; data_provenance/event_disjoint_sample_flow.csv; data_provenance/event_disjoint_exclusion_detail.csv,Numerical row flow captured; upstream dataset version check remains
+R1.3,Exact triage taxonomy,data_provenance/triage_taxonomy_exact_mapping.csv,11→3 class mapping present
+R1.4,Event-held-out per-class support/metrics,results/reviewer_revision/event_disjoint_request_class_results.csv; results/reviewer_revision/event_disjoint_per_class.csv; results/architecture_ablation/erht_event_disjoint_per_class.csv,Includes multiple model runs; manuscript should select matching final model
+R1.5,Selection protocol,configs/model_selection_and_inference_protocol.json; configs/vircon_ert_final_confirmation.json,Reviewer rerun plus final GPU claims; event ablation chosen using development results
+R1.6,Modern encoder comparison,results/distilbert_and_external/distilbert_event_disjoint_oof_predictions.csv; results/vircon_ert_confirmation/vircon_ert_fixed_predictions.csv,DistilBERT evidence and VIRCON-ERT predictions saved
+R1.7,Statistical methodology,results/statistics/statistical_hypothesis_families.csv; results/architecture_ablation/erht_ALL_variants_vs_distilbert_bootstrap.csv,Cluster bootstrap saved; not a substitute for full clean execution
+R1.8,Public reproducibility,scripts/; notebooks/; data_provenance/; SHA256SUMS.txt,Exported; public release and full rerun still outstanding
+R2.1,Novelty vs contemporary models,notebooks/VIRCON_ERHT_Final_Model.ipynb; results/architecture_ablation/,Architecture and ablation evidence; literature positioning remains in manuscript
+R2.2,External transfer,results/vircon_ert_confirmation/text_free_vircon_ert_humaid_predictions.csv; data_provenance/vircon_ert_humaid_population_accounting.csv,External sample evidence; prepared HumAID harmonization needs complete provenance
+R2.3,Triage manual validation,results/manual_audit/triage_manual_audit_FINAL_frozen_summary.csv; results/manual_audit/triage_manual_audit_FINAL_public_safe.csv,Two-rater 200-row audit included without message text
+R2.4,Matched efficiency/quality,results/vircon_ert_confirmation/vircon_ert_cpu_deployment_benchmark.csv; results/distilbert_and_external/distilbert_cpu_deployment_benchmark.csv,Different setups; matched 1:1 benchmark not established
+R2.5,Alternative event grouping,results/sensitivity/event_grouping_sensitivity_summary.csv; data_provenance/event_grouping_sensitivity_assignment.csv,Typhoon Hagupit alias-separation sensitivity available for older baselines
+R2.6,Operational claims,configs/claim_scope_and_limitations.json,Offline evaluation only; no live response workload results
+R2.7,Event-shift limitations,results/architecture_ablation/erht_ALL_variants_vs_distilbert_bootstrap.csv; results/architecture_ablation/erht_event_disjoint_predictions.csv,Non-significant +0.015 trend; zero rare-request recall disclosed

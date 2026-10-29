@@ -1,0 +1,14 @@
+reviewer_comment,issue,output,how_addressed
+R1.1,Deployment claims / latency / size,accuracy_latency_memory_pareto.csv,"Separates predictive quality, latency and package size on the same CPU."
+R1.2,Event-disjoint sample accounting,complete_sample_accounting.csv + event_disjoint_exclusion_detail.csv,Explicit row flow and exclusion reasons.
+R1.3,Exact triage taxonomy,triage_taxonomy_exact_mapping.csv,One source label -> one triage label with hard validation.
+R1.4,Request-class event-disjoint metrics,event_disjoint_request_class_results.csv,Explicit support/precision/recall/F1 for request class.
+R1.5,Model-selection protocol,model_selection_and_inference_protocol.json,A-priori settings; no test-informed tuning.
+R1.6 / R2.4,Modern text encoder and Pareto comparison,fixed/event CV summaries + accuracy_latency_memory_pareto.csv,Frozen MiniLM + balanced LR under matched protocols/hardware.
+R1.7,Statistical rigor,primary_effect_estimates_and_cis.csv + statistical_hypothesis_families.csv,Effect + CI primary; event-cluster bootstrap; Holm within family; no primary seed Wilcoxon.
+R1.8,Public reproducibility artifacts,entire artifact bundle,"Hashes, config, environment, folds, predictions, per-class outputs, dependency snapshot."
+R2.2,Generalization scope,claim_scope_and_limitations.json,Restricts claim to same-corpus event shift unless external corpus is added.
+R2.3,Triage proxy validation,triage_manual_audit_template.csv,Creates blinded human-audit template; must be completed by authors/practitioners for validation claim.
+R2.5,Event-construction sensitivity,event_grouping_sensitivity_summary.csv,Primary verified alias merge vs Hagupit-kept-separate sensitivity.
+R2.6,Operational claim scope,claim_scope_and_limitations.json,Uses computational deployability/offline screening wording unless human workflow study is added.
+R2.7,Event shift as primary limitation,matched group/event summaries + effect tables,Same strict corpus evaluated under duplicate-safe and event-disjoint protocols.
