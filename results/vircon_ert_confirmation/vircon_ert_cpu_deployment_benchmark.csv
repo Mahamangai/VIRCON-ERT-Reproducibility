@@ -1,0 +1,2 @@
+model,benchmark_device,cpu_threads,benchmark_messages,max_length,median_latency_ms,mean_latency_ms,p95_latency_ms,model_state_size_mb,latency_scope
+VIRCON-ERT,CPU,2,300,128,136.70995699999366,141.12815971666956,169.41297609987487,253.64903163909912,tokenization + complete CPU forward pass; batch size 1
