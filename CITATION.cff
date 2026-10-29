@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this research code or reported outputs, please cite the associated VIRCON-ERT manuscript and this repository release."
+title: "VIRCON-ERT: An Event-Aware Triage Transformer for Humanitarian Social Media Classification and Disaster Response — Reproducibility Materials"
+type: software
+authors:
+  - given-names: "S."
+    family-names: "Mahalakshmi"
+  - given-names: "R."
+    family-names: "Bagavathi Lakshmi"
+version: 0.1.0-rc1
