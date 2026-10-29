@@ -1,0 +1,6 @@
+protocol,exclusion_category,rows
+primary_alias_merged,generic_event_pool,11269
+primary_alias_merged,cross_event_duplicate_only,0
+primary_alias_merged,conflicting_label_only,6
+primary_alias_merged,both_duplicate_and_conflict,2
+primary_alias_merged,final_strict_population,67243

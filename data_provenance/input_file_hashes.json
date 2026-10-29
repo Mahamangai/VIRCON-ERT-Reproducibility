@@ -1,0 +1,6 @@
+{
+  "train_path": "/content/drive/MyDrive/VirconPaper1/crisis_consolidated_humanitarian_filtered_lang_en_train.tsv",
+  "train_sha256": "5e3dd75d1dcbdba893d8d731795b51853d04708547a9bdc2bd18a0b54b82541b",
+  "test_path": "/content/drive/MyDrive/VirconPaper1/crisis_consolidated_humanitarian_filtered_lang_en_test.tsv",
+  "test_sha256": "a664ce57f40c8791228d5a00ab43c23965c2f1be90fde4307413217fca8d1a86"
+}

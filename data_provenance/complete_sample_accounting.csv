@@ -1,0 +1,7 @@
+stage,rows,removed_from_previous,notes
+raw_official_train,61164,0,Official CrisisBench training partition before cleaning
+prepared_train,61164,0,Removed missing labels or empty normalized text only
+raw_official_test,17356,0,Official CrisisBench test partition before cleaning
+prepared_test,17356,0,Removed missing labels or empty normalized text only
+prepared_combined,78520,0,Prepared train + test; basis for same-corpus event-shift evaluation
+strict_identifiable_event_population,67243,11277,Generic event pool and leakage-risk duplicate/conflicting texts excluded
