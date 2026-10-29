@@ -1,0 +1,6 @@
+{
+  "supported_claim": "computational deployability and offline screening performance under official split plus same-corpus event shift",
+  "unsupported_claim": "validated generalization to arbitrary unseen disasters or demonstrated end-to-end emergency-management utility",
+  "reason": "No independent external disaster corpus and no human-in-the-loop operational outcome study are included in this rerun.",
+  "triage_proxy": "taxonomy-derived; practitioner/manual audit template exported but must be completed before claiming practitioner-validated triage"
+}

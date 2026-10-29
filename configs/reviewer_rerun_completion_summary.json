@@ -1,0 +1,17 @@
+{
+  "status": "completed",
+  "prepared_train_rows": 61164,
+  "prepared_test_rows": 17356,
+  "strict_event_rows": 67243,
+  "strict_canonical_events": 50,
+  "models": [
+    "hash_lr",
+    "tfidf_lr",
+    "tfidf_svc",
+    "minilm_lr"
+  ],
+  "modern_encoder_enabled": true,
+  "primary_inference_uses_seed_wilcoxon": false,
+  "manual_triage_audit_completed": false,
+  "external_validation_included": false
+}

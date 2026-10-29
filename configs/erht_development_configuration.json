@@ -1,0 +1,18 @@
+{
+  "model": "VIRCON-ERHT",
+  "expansion": "Event-Robust Hierarchical Triage Transformer",
+  "base_encoder": "distilbert-base-uncased",
+  "max_length": 128,
+  "epochs": 2,
+  "train_batch": 24,
+  "learning_rate": 2e-05,
+  "weight_decay": 0.01,
+  "lambda_triage": 0.6,
+  "lambda_request": 0.5,
+  "lambda_hierarchy": 0.2,
+  "lambda_cross_event_contrastive": 0.1,
+  "lambda_event_adversarial": 0.05,
+  "request_threshold": 0.5,
+  "primary_endpoint": "same-corpus event-disjoint 11-class macro-F1",
+  "human_audit_used_for_training": false
+}

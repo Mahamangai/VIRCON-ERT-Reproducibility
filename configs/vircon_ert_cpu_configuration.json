@@ -1,0 +1,22 @@
+{
+  "model": "VIRCON-ERT",
+  "base_encoder": "distilbert-base-uncased",
+  "device": "CPU",
+  "cpu_threads": 2,
+  "seed": 20266008,
+  "max_length": 128,
+  "epochs": 2,
+  "train_batch": 24,
+  "learning_rate": 2e-05,
+  "weight_decay": 0.01,
+  "lambda_triage": 0.6,
+  "lambda_request": 0.5,
+  "lambda_cross_event_contrastive": 0.1,
+  "lambda_event_adversarial": 0.05,
+  "lambda_hierarchy": 0.0,
+  "request_threshold": 0.5,
+  "official_test_used_for_training": false,
+  "humaid_used_for_training": false,
+  "humaid_used_for_model_selection": false,
+  "configuration_sha256": "95f645711395a2c0483537bff29e06b544a94341945fd11c26bf6498da8787ff"
+}

@@ -1,0 +1,36 @@
+{
+  "hyperparameter_selection": "No test-set hyperparameter tuning in this reviewer rerun.",
+  "sparse_hyperparameters": {
+    "ngram_range": [
+      1,
+      2
+    ],
+    "tfidf_min_df": 2,
+    "tfidf_max_df": 0.95,
+    "tfidf_max_features": 50000,
+    "hash_features": 65536,
+    "classifier_C": 1.0,
+    "class_weight": "balanced"
+  },
+  "modern_encoder": {
+    "model_id": "sentence-transformers/all-MiniLM-L6-v2",
+    "frozen": true,
+    "classifier": "balanced logistic regression",
+    "classifier_C": 1.0,
+    "corpus_specific_fine_tuning": false,
+    "representation_fit_on_test_labels": false
+  },
+  "split_policy": {
+    "official_fixed_split": "unchanged CrisisBench train/test partitions",
+    "group_agnostic": "same strict records; normalized-text identity grouped to prevent duplicate leakage",
+    "event_disjoint": "same strict records; canonical event wholly absent from training fold",
+    "event_split_random_state": 20260939,
+    "performance_used_to_choose_split": false
+  },
+  "inference_policy": {
+    "seed_level_Wilcoxon_primary": false,
+    "fixed_split_primary": "stratified paired message bootstrap effect + 95% CI",
+    "event_disjoint_primary": "canonical-event cluster bootstrap effect + 95% CI",
+    "multiplicity": "Holm within explicitly declared hypothesis family"
+  }
+}
