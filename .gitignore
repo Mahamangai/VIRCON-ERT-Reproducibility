@@ -1,0 +1,22 @@
+# Local input datasets and unreviewed/raw exports
+data/raw/
+private/
+*.tsv
+!README.md
+# Large training assets (not in reproducibility source repository)
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.bin
+# Keep curated files only, not temporary artifacts
+__pycache__/
+.ipynb_checkpoints/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+.DS_Store
+Thumbs.db
+*.log
