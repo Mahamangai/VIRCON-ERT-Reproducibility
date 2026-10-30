@@ -1,8 +1,10 @@
 # Citation and reuse
 
-## How to cite this release
+## How to cite the software
 
-Mahalakshmi, S., & Bagavathi Lakshmi, R. (2026). *VIRCON-ERT: An Event-Aware Triage Transformer for Humanitarian Social Media Classification and Disaster Response — Reproducibility Materials* (v1.0.0) [Software]. Zenodo. https://doi.org/10.5281/zenodo.23752635
+Mahalakshmi, S., & Bagavathi Lakshmi, R. (2026). *VIRCON-ERT: An Event-Aware Triage Transformer for Humanitarian Social Media Classification and Disaster Response — Reproducibility Materials* [Software]. Zenodo. https://doi.org/10.5281/zenodo.23752634
+
+For an IJIES manuscript citing the v1.1.0 source snapshot, use the NEW version-specific DOI shown on the Zenodo v1.1.0 record once it is archived.
 
 Source repository: https://github.com/Mahamangai/VIRCON-ERT-Reproducibility
 

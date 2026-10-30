@@ -4,7 +4,7 @@
 
 GitHub repository: https://github.com/Mahamangai/VIRCON-ERT-Reproducibility
 
-Archived v1.0.0 software record: https://doi.org/10.5281/zenodo.23752635
+Archived software (all versions): https://doi.org/10.5281/zenodo.23752634
 
 ## Download
 

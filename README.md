@@ -3,7 +3,7 @@
 **Reproducibility materials** for the study **“VIRCON-ERT: An Event-Aware Triage Transformer for Humanitarian Social Media Classification and Disaster Response”** by S. Mahalakshmi and R. Bagavathi Lakshmi.
 
 - **Public repository:** https://github.com/Mahamangai/VIRCON-ERT-Reproducibility
-- **Archived v1.0.0 release:** https://doi.org/10.5281/zenodo.23752635
+- **Archived software (all versions):** https://doi.org/10.5281/zenodo.23752634
 - **Automated saved-result checks:** https://github.com/Mahamangai/VIRCON-ERT-Reproducibility/actions/workflows/verify-results.yml
 
 ## Contents

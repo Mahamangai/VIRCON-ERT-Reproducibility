@@ -7,7 +7,5 @@ authors:
     family-names: "Mahalakshmi"
   - given-names: "R."
     family-names: "Bagavathi Lakshmi"
-version: 1.0.0
-date-released: 2026-10-29
-doi: 10.5281/zenodo.23752635
+version: 1.1.0
 url: https://github.com/Mahamangai/VIRCON-ERT-Reproducibility

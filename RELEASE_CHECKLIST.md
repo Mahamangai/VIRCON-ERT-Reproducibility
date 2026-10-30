@@ -18,4 +18,4 @@ https://github.com/Mahamangai/VIRCON-ERT-Reproducibility/actions/workflows/verif
 
 ## Archive record
 
-The v1.0.0 release is available at https://doi.org/10.5281/zenodo.23752635. New research or documentation versions should be traceable to the corresponding version-specific DOI.
+The archival record for all releases is https://doi.org/10.5281/zenodo.23752634. For precise reproduction, cite the version-specific DOI shown in the Zenodo record corresponding to the release used.

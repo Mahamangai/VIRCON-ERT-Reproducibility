@@ -4,7 +4,7 @@ The repository provides the research code, configuration records, sample-account
 
 **Repository:** https://github.com/Mahamangai/VIRCON-ERT-Reproducibility
 
-**Archived version 1.0.0:** https://doi.org/10.5281/zenodo.23752635
+**Archived software (all versions):** https://doi.org/10.5281/zenodo.23752634
 
 ## Dataset inputs
 
