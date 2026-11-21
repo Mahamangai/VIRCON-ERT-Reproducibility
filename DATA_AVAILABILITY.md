@@ -4,13 +4,15 @@ The repository provides the research code, configuration records, sample-account
 
 **Repository:** https://github.com/Mahamangai/VIRCON-ERT-Reproducibility
 
+**Latest archived software (v1.2.0):** https://doi.org/10.5281/zenodo.24419660
+
 **Archived software (all versions):** https://doi.org/10.5281/zenodo.23752634
 
 ## Dataset inputs
 
 CrisisBench and HumAID source datasets are distributed by their original providers and are not included as full raw-message datasets here. The prepared experimental train/test files were filtered inputs rather than necessarily the unmodified publisher partitions. Input hashes are supplied under `data_provenance/` to support matching legally obtained inputs with the experiment records.
 
-The released results include text-free prediction tables and manual-audit result files. Rights to underlying social-media messages and any annotations remain subject to their source conditions.
+The released results include text-free prediction tables and manual-audit result files. Version v1.2.0 additionally includes Turkey–Syria 2023 external-event three-model comparisons, paired bootstrap, inference benchmarks, false-request/error analyses, and cleaned Kaggle notebooks under `results/external_turkey_syria_2023/` and `notebooks/`. Rights to underlying social-media messages and any annotations remain subject to their source conditions.
 
 ## Reproducibility scope
 
