@@ -1,0 +1,5 @@
+population,comparison,n_messages,macro_f1_difference,CI95_low,CI95_high,CI_excludes_zero,resamples,sampling_unit
+all_600,VIRCON_full minus TFIDF_LinearSVC,600,0.025668885741579106,-0.0098351916887737,0.05990891077986876,False,2000,"message, conditional on one event"
+all_600,VIRCON_full minus Crisis_CT_M1,600,0.012235875513748329,-0.017456186799913447,0.04214336178350117,False,2000,"message, conditional on one event"
+relevant_504,VIRCON_full minus TFIDF_LinearSVC,504,0.03338843457822255,-0.008724785487679016,0.07450557495857849,False,2000,"message, conditional on one event"
+relevant_504,VIRCON_full minus Crisis_CT_M1,504,0.015538724579675645,-0.020900748165725163,0.050306370689961924,False,2000,"message, conditional on one event"

@@ -1,0 +1,19 @@
+{
+  "test_dataset_SHA256": "c58378ba9b5b7ae247fb2b44eda79459ac76b7712f3df876ee8bb8198e9ff1b5",
+  "original_train_SHA256": "5e3dd75d1dcbdba893d8d731795b51853d04708547a9bdc2bd18a0b54b82541b",
+  "full_checkpoint_SHA256": "d8a34879c1899f6994ce5dd652fdc9b5ba7a7f1db8bf00304773fc924f19e764",
+  "crisis_checkpoint_SHA256": "0d65d19e57dd2e72d8b9ff6ba40a29a27e29667b60d93c15d64709a9c1abbcac",
+  "crisis_model": "crisistransformers/CT-M1-Complete",
+  "seed": 20266008,
+  "crisis_epochs": 2,
+  "external_labels_used_to_train": false,
+  "triage_VIRCON": "trained direct head",
+  "triage_Crisis_and_SVC": "mapped from predicted humanitarian label",
+  "inference_device_transformers": "Tesla T4",
+  "sparse_baseline_device": "CPU",
+  "limitations": [
+    "one unseen disaster",
+    "rare operational request positives",
+    "message bootstrap does not quantify cross-event generalization"
+  ]
+}

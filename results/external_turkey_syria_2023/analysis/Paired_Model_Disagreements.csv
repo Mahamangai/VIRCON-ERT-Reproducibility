@@ -1,0 +1,5 @@
+population,comparator,VIRCON_wrong_comparator_correct,VIRCON_correct_comparator_wrong
+all_600,TFIDF_LinearSVC,65,99
+all_600,Crisis_CT_M1,40,68
+relevant_504,TFIDF_LinearSVC,44,90
+relevant_504,Crisis_CT_M1,37,57
