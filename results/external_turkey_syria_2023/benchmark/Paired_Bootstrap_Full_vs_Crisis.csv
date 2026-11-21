@@ -1,0 +1,3 @@
+population,VIRCON_minus_Crisis_macro_f1,CI95_low,CI95_high,unit,resamples
+all_600,0.012235875513748329,-0.01859932462509692,0.041851813296824004,message within one event,2000
+relevant_504,0.015538724579675645,-0.01934309705620564,0.051592009387913626,message within one event,2000

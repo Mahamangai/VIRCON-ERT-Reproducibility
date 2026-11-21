@@ -1,0 +1,12 @@
+,affected_individual,caution_and_advice,displaced_and_evacuations,donation_and_volunteering,infrastructure_and_utilities_damage,injured_or_dead_people,missing_and_found_people,not_humanitarian,requests_or_needs,response_efforts,sympathy_and_support
+affected_individual,2,1,0,4,2,0,0,4,5,1,2
+caution_and_advice,0,2,0,0,0,1,0,3,2,0,1
+displaced_and_evacuations,0,0,0,0,3,0,0,1,4,0,0
+donation_and_volunteering,0,0,0,17,0,0,0,5,12,0,1
+infrastructure_and_utilities_damage,2,1,0,1,22,1,0,2,2,0,0
+injured_or_dead_people,6,0,0,2,2,47,2,5,4,0,2
+missing_and_found_people,0,0,0,0,1,0,1,1,0,0,0
+not_humanitarian,1,5,0,4,10,0,0,48,11,0,0
+requests_or_needs,0,1,0,5,0,0,2,3,12,0,0
+response_efforts,1,0,0,17,5,0,9,7,14,0,2
+sympathy_and_support,0,0,0,1,5,10,2,66,24,1,61

@@ -1,0 +1,4 @@
+model,device,n_messages,batch_size,seconds_median,milliseconds_per_message,messages_per_second,peak_gpu_allocated_mib,parameter_million,triage_mechanism,timing_scope
+Crisis_CT_M1,Tesla T4,600,32,3.588122293499964,5.9802038224999405,167.21838079123597,666.27099609375,135.016907,taxonomy_derived,"tokenization, transfer, GPU forward; excludes model loading"
+VIRCON_full,Tesla T4,600,32,1.9346110760000101,3.22435179333335,310.1398557277757,405.03173828125,66.480587,direct_head,"tokenization, transfer, GPU forward; excludes model loading"
+TFIDF_LinearSVC,CPU (same Kaggle session),600,600,0.020232226499956596,0.03372037749992766,29655.658511004076,,,taxonomy_derived,CPU vectorization + prediction; excludes fitting
