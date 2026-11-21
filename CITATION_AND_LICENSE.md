@@ -2,9 +2,9 @@
 
 ## How to cite the software
 
-Mahalakshmi, S., & Bagavathi Lakshmi, R. (2026). *VIRCON-ERT: An Event-Aware Triage Transformer for Humanitarian Social Media Classification and Disaster Response — Reproducibility Materials* [Software]. Zenodo. https://doi.org/10.5281/zenodo.23752634
+Mahalakshmi, S., & Bagavathi Lakshmi, R. (2026). *VIRCON-ERT: An Event-Aware Triage Transformer for Humanitarian Social Media Classification and Disaster Response — Reproducibility Materials* (v1.2.0) [Software]. Zenodo. https://doi.org/10.5281/zenodo.24419660
 
-For an IJIES manuscript citing the v1.1.0 source snapshot, use the NEW version-specific DOI shown on the Zenodo v1.1.0 record once it is archived.
+Use the version-specific DOI above when citing the November 2026 external-evaluation and Kaggle-notebook snapshot. The concept DOI https://doi.org/10.5281/zenodo.23752634 identifies the complete version series. Older versions remain separately citable: v1.0.0 (10.5281/zenodo.23752635), v1.1.0 (10.5281/zenodo.23804759).
 
 Source repository: https://github.com/Mahamangai/VIRCON-ERT-Reproducibility
 

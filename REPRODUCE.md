@@ -12,6 +12,7 @@ cd VIRCON-ERT-Reproducibility
 python -m pip install -r requirements-ci.txt
 python scripts/verify_saved_results.py
 python scripts/check_release_inventory.py
+python scripts/verify_turkey2023_external.py
 ```
 
 The first script recalculates selected accuracy, macro-F1, event-fold, annotation agreement, and bootstrap checks from **saved output files**. The second verifies the SHA-256 hashes of the frozen release files and checks some basic package hygiene. **Neither retrains a model.**
@@ -39,6 +40,10 @@ Original development and final confirmation were performed in Google Colab on a 
 
 Open `notebooks/Verify_VIRCON_ERT_Saved_Results.ipynb` in Google Colab and run all cells. This checks saved metrics without requiring any prepared CrisisBench TSV files, private Google Drive access, or a GPU.
 
+## D. November 2026 Turkey–Syria external evaluation
+
+Saved-result checks and outputs: [`results/external_turkey_syria_2023/README.md`](results/external_turkey_syria_2023/README.md). The [Kaggle notebook guide](notebooks/README_NOV2026_KAGGLE.md) identifies the checkpoint-grid, recovery, and frozen three-model comparison notebooks and their order. Those notebooks contain sanitized sources with saved cell outputs removed. Exact inference/training requires separately obtained checksum-matched CrisisBench inputs, the frozen 600-message evaluation dataset, and the original VIRCON-ERT and Crisis CT-M1 checkpoint files. These restricted inputs and checkpoint binaries are not in the public archive. A complete fresh GPU replay has not been verified.
+
 ## Scholarly versioning
 
-The initial Zenodo release `v1.0.0` is archived at https://doi.org/10.5281/zenodo.23752635. Changes to reproducibility scripts should go into new Git commits and, once reviewed, a **new release (e.g. v1.1.0)** rather than silently modifying the scholarly record. Document which release produced each result.
+The current archived external-validation release `v1.2.0` is https://doi.org/10.5281/zenodo.24419660 (21 November 2026). Older releases are `v1.1.0` (https://doi.org/10.5281/zenodo.23804759) and `v1.0.0` (https://doi.org/10.5281/zenodo.23752635). The concept DOI https://doi.org/10.5281/zenodo.23752634 represents all versions. These README/citation documentation corrections are made to the current `main` branch **after** the archived v1.2.0 release; they do not rewrite the immutable v1.2.0 Zenodo ZIP or its Git tag. Use the version-specific DOI for exact citation.
